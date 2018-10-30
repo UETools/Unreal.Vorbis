@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>jesterret</Authors>
+    <Description>Module for interacting with Unreal Engine 4 Vorbis bank files. 
+Allows for extraction of .wem audio files from .bnk packages, with proper name mapping when source xml is supplied.</Description>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Unreal.Core\Unreal.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sections\HIRCTypes\" />
+  </ItemGroup>
+
+</Project>
